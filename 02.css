@@ -337,7 +337,9 @@ footer small{
 }
 /*タブレット対応*/
 @media screen and (max-width:980px) {
-		
+		.griditems{
+			/*background-size: cover;*/
+		}
 }
 /*スマホ対応*/
 @media screen and (max-width:480px) {
