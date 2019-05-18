@@ -1,3 +1,5 @@
+
+
 @import url('https://fonts.googleapis.com/css?family=Mukta|Roboto+Condensed:400,700');
 @import url('https://fonts.googleapis.com/css?family=Kosugi|Noto+Sans+JP:500');
 body{
@@ -249,6 +251,18 @@ body{
 /*	background:url(image/wave.png) bottom repeat-x;
 	background-size: 50px;*/
 }
+/*スライダー*/
+
+.cebu{
+	width: 50%;
+	margin:0 auto;
+}
+section:nth-child(4){
+	padding: 50px 0;
+}
+.cebu img{
+	padding-left: 0.1%;
+}
 
 /*お問い合わせフォーム*/
 .label{
@@ -457,7 +471,7 @@ footer small{
 		}
 		.grid-container{
 			grid-template-rows: 100px 100px 100px 100px 100px 100px;
-			grid-template-columns: 100px 100px 100px;
+			grid-template-columns: auto auto auto;
 			grid-gap: 4px 4px;
 
 		}
