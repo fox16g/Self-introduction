@@ -258,7 +258,9 @@ body{
 	margin:0 auto;
 }
 section:nth-child(4){
-	padding: 50px 0;
+	padding: 120px 0 70px;
+	/*background-image:url("image/cebu9.jpeg");*/
+
 }
 .cebu img{
 	padding-left: 0.1%;
