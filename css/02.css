@@ -7,6 +7,44 @@ body {
   padding: 0;
 }
 
+#navbar {
+  background-color: #f90;
+}
+
+#navbar .btn {
+  border: 0px solid transparent;
+}
+
+#navbar .btn-default.focus, #navbar .btn-default:focus {
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+}
+
+#navbar li.nav-item a {
+  font-weight: 700;
+  color: #333;
+}
+
+#navbar li.nav-item a:hover {
+  color: #fff;
+}
+
+#navbar a.dropdown-item {
+  font-weight: 400 !important;
+}
+
+#navbar button.dropdown-toggle-split {
+  background-color: transparent;
+}
+
+#navbar button.dropdown-toggle-split:hover {
+  color: #fff;
+}
+
+#navbar button.dropdown-toggle-split:active {
+  outline: none;
+}
+
 .firstview {
   height: 100vh;
   background-image: url(../image/suika.jpeg);
@@ -22,7 +60,7 @@ body {
   text-align: center;
   flex-direction: column;
   position: relative;
-  width: 20%;
+  width: 30%;
   top: 100px;
   right: 28%;
   border: solid 4px white;
@@ -39,14 +77,14 @@ body {
   .slidein1, .slidein3 {
     top: 170px;
     right: 0%;
-    width: 40%;
+    width: 50%;
   }
 }
 
 @media only screen and (max-width: 580px) {
   .slidein1, .slidein3 {
     top: 220px;
-    font-size: 25px;
+    font-size: 1.4em;
     right: 0%;
   }
 }
@@ -63,7 +101,7 @@ body {
   .slidein3 {
     top: 180px;
     left: 0%;
-    width: 40%;
+    width: 50%;
   }
 }
 
@@ -170,8 +208,8 @@ body {
 
 @media only screen and (max-width: 580px) {
   .goalcontainer .goal-items img {
-    height: 65%;
-    width: 65%;
+    height: 55%;
+    width: 55%;
     text-align: center;
   }
 }
