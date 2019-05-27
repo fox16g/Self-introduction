@@ -249,8 +249,6 @@ body{
 	grid-column-end: $column-end;
 	background-image: $bg-img;
 }
-
-
 .favorite{
 	width: 75%;
 	margin: 50px auto;
@@ -346,7 +344,7 @@ body{
 // photo ここから
 section:nth-child(4){
 	padding: 70px 0px 70px;
-	background-color:#f7f4ef
+	background-color:#f7f4ef;
 }
 .cebu{
 	width: 50%;
@@ -361,9 +359,11 @@ section:nth-child(4){
 // photo ここまで
 // contact ここから
 .form{
+
 	background-color: #D9D9D9;
 	padding: 30px 50px 60px;
 	margin: 0px auto;
+	margin-top: 70px;
 	text-align: center;
 	@include mediaq(sp){
 		padding:30px 15px 50px;
